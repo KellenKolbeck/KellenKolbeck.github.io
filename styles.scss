@@ -19,12 +19,8 @@ a{
 	display: none;
 }
 
-#page1{
-	height: 900px;
-}
-
-#page3{
-	height: 1300px;
+#page1, #page3{
+	height: 1000px;
 }
 
 #page2, #page4{
@@ -190,7 +186,7 @@ a{
 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.project{
 		display: inline-block;
 		width: 60%;
