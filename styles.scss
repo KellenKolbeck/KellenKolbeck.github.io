@@ -1,3 +1,4 @@
+//Global
 html, body {
 	margin: 0;
 	padding: 0;
@@ -15,22 +16,30 @@ a{
 	}
 }
 
+// For scroll to top
 .hidden{
 	display: none;
 }
 
+// Set page heights
 #page1{
 	height: 900px;
+}
+
+#page2{
+	height: 650px;
 }
 
 #page3{
 	height: 1400px;
 }
 
-#page2, #page4{
-	height: 650px;
+#page4{
+	height: 300px;
+	color: #fff;
 }
 
+// Page backgrounds
 #page1 {
 	background-image: url("img/index-background.jpg");
 	background-size: cover;
@@ -62,12 +71,13 @@ a{
 	background-color: #000;
 }
 
+// Navigation elements
 .nav-burger{
 	position: fixed;
 	top: 2%;
 	right: 2.5%;
-	width: 3%;
-	height: 7.5%;
+	width: 35px;
+	height: 35px;
 	&:hover{
 		cursor: pointer;
 	}
@@ -89,10 +99,10 @@ a{
 	&.nav-show{
 		display: block;
 		position: fixed;
-		top: 8.75%;
+		top: 4.5%;
 		right: 0;
 		height: auto;
-		width: 15%;
+		width: 10%;
 		background-color: rgba(0, 0, 0, 0.8);
 		color: #fff;
 		text-align: center;
@@ -104,6 +114,7 @@ a{
 	}
 }
 
+// Page 1 Home
 #name {
 	color: #000;
 	text-align: center;
@@ -151,8 +162,10 @@ a{
   }
 }
 
+// Page 2, About
 
 
+// Page 3, Projects 
 .heading{
 	padding-top: 12.5%;
 	font-size: 3em;
@@ -193,6 +206,13 @@ a{
 	}
 }
 
+// Page 4 Contact
+.contact{
+	padding-top: 2%;
+}
+
+
+// Arrow to top of page
 .top-arrow{
 	position: fixed;
 	bottom: 2%;
@@ -209,17 +229,14 @@ a{
   }
 }
 
+//Media Queries
 @media screen and (max-width: 768px) {
 	#page3{
 		height: 1700px;
 	}
 	.nav-burger{
-		width: 5%;
-	}
-	.nav-menu{
-		&.nav-show{
-			
-		}
+		top: 2%;
+		position: absolute;
 	}
 	.project{
 		display: inline-block;
@@ -229,19 +246,16 @@ a{
 		position: relative;
 		height: 20%;
 	}
+	.nav-menu{
+		&.nav-show{
+			width: 15%;
+		}
+	}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	#page3{
 		height: 2000px;
-	}
-	.nav-burger{
-		width: 4%;
-	}
-	.nav-menu{
-		&.nav-show{
-
-		}
 	}
 	.project{
 		display: inline-block;
