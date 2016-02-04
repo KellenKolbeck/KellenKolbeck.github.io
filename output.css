@@ -108,6 +108,7 @@ a {
   margin-left: 35%; }
 
 .icon {
+  border-radius: 50px;
   width: 20%;
   height: 100%;
   margin: 2.5%;
@@ -118,7 +119,7 @@ a {
   background-size: contain;
   background-position: center; }
   .icon:hover {
-    color: #B57EDC; }
+    background-color: #B57EDC; }
 
 .arrow-bottom {
   position: absolute;
@@ -135,6 +136,18 @@ a {
   transform: rotate(225deg); }
   .arrow-bottom:hover {
     border-color: #B57EDC; }
+
+.about-container {
+  height: 80%;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white; }
+
+.kellen-photo img {
+  position: relative;
+  height: 40%;
+  width: 40%;
+  float: right; }
 
 .heading {
   padding-top: 7.5%;

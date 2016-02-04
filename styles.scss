@@ -136,6 +136,7 @@ a{
 }
 
 .icon{
+	border-radius: 50px;
 	width: 20%;
 	height: 100%;
 	margin: 2.5%;
@@ -146,7 +147,7 @@ a{
 	background-size: contain;
 	background-position: center;
 	&:hover{
-		color: #B57EDC;
+		background-color: #B57EDC;
 	}
 }
 
@@ -167,6 +168,19 @@ a{
 }
 
 // Page 2, About
+.about-container{
+	height: 80%;
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.kellen-photo img{
+	position: relative;
+	height: 40%;
+	width: 40%;
+	float: right;
+}
 
 
 // Page 3, Projects 
@@ -273,7 +287,7 @@ a{
 		top: 60%;
 		height: 5%;
 		margin-left: 25%;
-}
+	}
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
