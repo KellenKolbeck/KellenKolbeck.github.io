@@ -28,7 +28,7 @@ a {
   color: #fff; }
 
 #page1 {
-  background-image: url("img/index-background.jpg");
+  background-image: url("https://static.pexels.com/photos/14613/Life-of-Pix-free-stock-photos-blocks-sky-monument-davideragusa.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ a {
     background-color: #000; }
 
 #page3 {
-  background-image: url("img/work.jpg");
+  background-image: url("https://pixabay.com/static/uploads/photo/2015/11/07/11/16/coffee-1030971_960_720.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -51,7 +51,8 @@ a {
   color: #fff; }
 
 #page4 {
-  background-color: #000; }
+  background-color: #000;
+  z-index: 5; }
 
 .nav-burger {
   position: fixed;
@@ -138,16 +139,24 @@ a {
     border-color: #B57EDC; }
 
 .about-container {
+  position: relative;
+  top: 9%;
   height: 80%;
   width: 80%;
   margin: 0 auto;
-  background-color: white; }
+  background-color: white;
+  border: 5px solid #000; }
 
-.kellen-photo img {
+.kellen-photo {
   position: relative;
   height: 40%;
   width: 40%;
-  float: right; }
+  top: 0;
+  left: 56%;
+  margin: 2%; }
+
+.about-me {
+  padding: 0 2%; }
 
 .heading {
   padding-top: 7.5%;
@@ -212,10 +221,6 @@ a {
   #page3 {
     height: 1700px; }
 
-  .nav-burger {
-    top: 2%;
-    position: absolute; }
-
   .project {
     display: inline-block;
     width: 60%;
@@ -223,6 +228,9 @@ a {
     margin-top: 5%;
     position: relative;
     height: 20%; }
+
+  .nav-burger {
+    width: 25px; }
 
   .nav-menu.nav-show {
     width: 15%; }
@@ -245,5 +253,46 @@ a {
     margin-top: 5%;
     position: relative;
     height: 20%; } }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s; }
+
+.fade-in#name {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s; }
+
+.fade-in.headline {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+
+.fade-in.social-icons {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
 
 /*# sourceMappingURL=output.css.map */
