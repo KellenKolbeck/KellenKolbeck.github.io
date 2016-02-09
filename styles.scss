@@ -291,16 +291,41 @@ a{
 		height: 2500px;
 	}
 
-	.nav-burger{
-		width: 25px
-	}
+	// .nav-burger{
+	// 	width: 25px
+	// }
 
+	// .nav-menu{
+	// 	&.nav-show{
+	// 		width: 15%;
+	// 	}
+	// }
+	// 
+	.nav-burger{
+		display:none;
+	}
+	
 	.nav-menu{
-		&.nav-show{
-			width: 15%;
+		display: block;
+		position: fixed;
+		top: 0;
+		background-color: #000;
+		width: 100%;
+		height: 5%;
+		.nav-links{
+			margin-top: 3%;
+		}
+		.nav-links li{
+			display: inline-block;
+			width: 20%;
+			text-align: center;
+			margin-left: 10%;
+			margin-bottom: 5px;
+		}
+		.nav-links p{
+			margin: 0;
 		}
 	}
-
 	#about-headline {
 		padding-top: 7.5%;
 	}
