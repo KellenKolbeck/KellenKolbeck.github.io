@@ -236,7 +236,7 @@ a {
     height: 1350px; }
 
   #page3 {
-    height: 1700px; }
+    height: 2500px; }
 
   .nav-burger {
     width: 25px; }
@@ -245,15 +245,18 @@ a {
     width: 15%; }
 
   #about-headline {
-    padding-top: 5%; }
+    padding-top: 7.5%; }
 
   .social-icons {
     text-align: center;
     position: absolute;
-    width: 50%;
-    top: 60%;
+    width: 60%;
+    top: 62%;
     height: 5%;
-    margin-left: 25%; }
+    margin-left: 20%; }
+
+  .icon {
+    margin: 2.5%; }
 
   .kellen-photo {
     float: none;
@@ -264,14 +267,14 @@ a {
 
   .project {
     display: inline-block;
-    width: 60%;
-    margin-left: 20%;
-    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
     position: relative;
     height: 22%; }
 
   .project-description {
-    font-size: 2.5vw; } }
+    font-size: 1.25em; } }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   #page3 {
     height: 2000px; }
