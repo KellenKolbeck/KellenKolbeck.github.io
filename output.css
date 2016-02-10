@@ -28,7 +28,7 @@ a {
   color: #fff; }
 
 #page1 {
-  background-image: url("https://static.pexels.com/photos/14613/Life-of-Pix-free-stock-photos-blocks-sky-monument-davideragusa.jpg");
+  background-image: url("img/index-background.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ a {
     background-color: #000; }
 
 #page3 {
-  background-image: url("https://pixabay.com/static/uploads/photo/2015/11/07/11/16/coffee-1030971_960_720.jpg");
+  background-image: url("img/work.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
