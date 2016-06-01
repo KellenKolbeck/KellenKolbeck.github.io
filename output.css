@@ -310,7 +310,7 @@ a {
     top: 0;
     background-color: #000;
     width: 100%;
-    height: 5%; }
+    height: 10%; }
     .nav-menu .nav-links {
       margin-top: 13px; }
     .nav-menu .nav-links li {
@@ -318,7 +318,8 @@ a {
       width: 20%;
       text-align: center;
       margin-left: 10%;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      padding-top: 20px; }
     .nav-menu .nav-links p {
       margin: 0; }
 
