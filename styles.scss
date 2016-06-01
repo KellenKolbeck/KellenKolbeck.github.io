@@ -433,9 +433,13 @@ a{
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	#page2{
-		height: 850px;
+		height: 1050px;
 		.kellen-photo{
-			border-radius: 40%;
+			border-radius: 50%;
+			width: 25%;
+			height: 25%;
+			float: none;
+			margin: 2% auto;
 		}
 	}
 
