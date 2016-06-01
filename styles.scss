@@ -355,7 +355,7 @@ a{
 	}
 }
 
-@media screen and (min-width : 320px) and (max-width : 768px){
+@media only screen and (min-width : 320px) and (max-width : 768px){
 	#page1{
 		height: 850px;
 	}
@@ -365,7 +365,7 @@ a{
 	}
 
 	#page3{
-		height: 1200px;
+		height: 1250px;
 	}
 
 	.nav-burger{
@@ -421,8 +421,7 @@ a{
 	.project{
 		display: inline-block;
 		width: 80%;
-		margin-left: 10%;
-		margin-top: 10%;
+		margin: 10% 0 5% 10%;
 		position: relative;
 		height: 35%;
 	}
